@@ -13,8 +13,8 @@ public class Startup extends ActionBarActivity {
         setContentView(R.layout.activity_startup);
         String str = "\u1D46\u2399";
         TextView textView = (TextView)findViewById(R.id.TestTextView);
-        Typeface font= Typeface.createFromAsset(getAssets(), "TAU_BHON.TTF");
-        tv.setTypeface(font);
+       // Typeface font= Typeface.createFromAsset(getAssets(), "TAU_BHON.TTF");
+       // f.setTypeface(font);
         textView.setText(str);
     }
 
